@@ -1,0 +1,60 @@
+.card{
+    height: 610px;
+    background-color: rgb(244, 245, 247);
+    width: 370px;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.3);
+    opacity: 0.9;
+}
+.card:hover{
+    background-color: rgb(237, 238, 240);
+    cursor: pointer;
+    opacity: 1;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.Information>p{
+    padding: 5px;
+    text-align: center;
+    color: gray;
+}
+.price>h5{
+    margin: 0;
+    text-align: end;
+    margin-right: 15px;
+    color: rgb(218, 209, 198);
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 5px;
+}
+.Button{
+    margin-top: 10px;
+    text-align: center;
+}
+button{
+    background-color: rgb(218, 209, 198);
+    border-radius: 5px;
+    border-style: none;
+    width: 80%;
+    height: 30px;
+    color: gray;
+    font-weight: 700;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+}
+.card-head>h2{
+    margin-left: 15px;
+    color: gray;
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.ribbon{
+    position: absolute;
+    top: -21px;
+    right: -5px;
+}
